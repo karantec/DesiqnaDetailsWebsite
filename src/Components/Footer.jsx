@@ -34,7 +34,7 @@ const Footer = () => {
   ];
 
   const stats = [
-    { number: "2000+", label: "Students Trained" },
+    { number: "1500+", label: "Students Trained" },
     { number: "1158", label: "Success Stories" },
     { number: "95%", label: "Placement Rate" },
     { number: "50+", label: "Partner Companies" }
@@ -94,58 +94,11 @@ const Footer = () => {
           {/* Links Grid */}
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
             {/* Quick Links */}
-            <div className="bg-white/60 backdrop-blur-sm rounded-2xl p-6 shadow-md border border-white/50">
-              <h3 className="text-lg font-bold mb-6 text-blue-600">Quick Links</h3>
-              <ul className="space-y-3">
-                {quickLinks.map((link, index) => (
-                  <li key={index}>
-                    <a
-                      href={link.href}
-                      className="text-gray-600 hover:text-blue-600 transition-all duration-300 hover:translate-x-1 transform inline-block hover:font-medium"
-                    >
-                      {link.name}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
+           
             {/* Programs */}
-            <div className="bg-white/60 backdrop-blur-sm rounded-2xl p-6 shadow-md border border-white/50">
-              <h3 className="text-lg font-bold mb-6 text-purple-600">Our Programs</h3>
-              <ul className="space-y-3">
-                {programs.map((program, index) => (
-                  <li key={index}>
-                    <a
-                      href={program.href}
-                      className="text-gray-600 hover:text-purple-600 transition-all duration-300 hover:translate-x-1 transform inline-block hover:font-medium"
-                    >
-                      {program.name}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
+            
             {/* Resources */}
-            <div className="bg-white/60 backdrop-blur-sm rounded-2xl p-6 shadow-md border border-white/50">
-              <h3 className="text-lg font-bold mb-6 text-green-600">Resources</h3>
-              <ul className="space-y-3">
-                {resources.map((resource, index) => (
-                  <li key={index}>
-                    <a
-                      href={resource.href}
-                      target={resource.href.startsWith('http') ? '_blank' : '_self'}
-                      rel={resource.href.startsWith('http') ? 'noopener noreferrer' : ''}
-                      className="text-gray-600 hover:text-green-600 transition-all duration-300 hover:translate-x-1 transform inline-block hover:font-medium"
-                    >
-                      {resource.name}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
+            
             {/* Contact & Social */}
             <div className="bg-white/60 backdrop-blur-sm rounded-2xl p-6 shadow-md border border-white/50">
               <h3 className="text-lg font-bold mb-6 text-orange-600">Connect With Us</h3>

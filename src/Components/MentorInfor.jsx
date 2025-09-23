@@ -24,7 +24,7 @@ export default function MentorInfo() {
               </p>
               <p className="flex items-center text-gray-700">
                 <span className="w-2 h-2 bg-green-500 rounded-full mr-3"></span>
-                Focused on improving thinking skills of Students
+                Focused on improving thinking skills of student
               </p>
               <p className="flex items-center text-gray-700">
                 <span className="w-2 h-2 bg-green-500 rounded-full mr-3"></span>
@@ -57,7 +57,7 @@ export default function MentorInfo() {
               </p>
               <p className="flex items-center text-gray-700">
                 <span className="w-2 h-2 bg-green-500 rounded-full mr-3"></span>
-                1-1 Mentored 500+ Students in 3 years
+                1-1 Mentored 1500+ Students in 5 years
               </p>
               <p className="flex items-center text-gray-700">
                 <span className="w-2 h-2 bg-green-500 rounded-full mr-3"></span>

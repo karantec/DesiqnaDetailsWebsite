@@ -33,7 +33,7 @@ export default function ProgramHighlights() {
             <div className="flex items-start space-x-3 p-4 bg-orange-50 rounded-lg">
               <div className="w-2 h-2 bg-orange-500 rounded-full mt-2 flex-shrink-0"></div>
               <span className="text-gray-700 font-medium">
-                800–850 Hr Structured Course
+                851 Hr Structured Recorded Course
               </span>
             </div>
 

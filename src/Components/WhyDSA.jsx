@@ -9,7 +9,7 @@ export default function WhyDSASection() {
         <div className="bg-gradient-to-r from-blue-50 to-white rounded-2xl shadow-xl p-6 sm:p-8 md:p-10 border-l-8 border-blue-600">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-gray-900 mb-6 flex items-center flex-wrap">
             <span className="text-3xl sm:text-4xl md:text-5xl mr-3 sm:mr-4">❓</span>
-            Why is{" "}
+            Why {" "}
             <span className="text-blue-600 ml-2">
               DSA (OA + Interview) Prep is Needed 
             </span>{" "} {"  "}

@@ -35,18 +35,20 @@ const programs = [
     id: 1,
     name: "8-Month Complete Journey",
     duration: "8 Months",
-    originalPrice: "₹8,500",
+    originalPrice: "₹10,500",
     currentPrice: "₹3,280",
-    discount: "61% OFF",
+    discount: "68% OFF",
     isPopular: true,
     color: "from-green-500 to-emerald-500",
     features: [
-      "Beginner to Advanced Track",
-      "FAANG Interview Preparation",
-      "800+ Hours Recorded Content",
-      "Live Doubt Sessions",
+      "Daily live classes By Kumar K sir (SDE @ Amazon)",
+     "FAANGM  + Top PBCs Job Referrals",
+      "851+ Hours Recorded Content",
+      "Personalized 1-1 Mentoring",
       "Mock Interviews",
-      "Placement Assistance"
+      "Placement Assistance",
+      
+      
     ],
     highlight: "Most Popular Choice"
   },
@@ -56,13 +58,15 @@ const programs = [
     duration: "4 Months",
     currentPrice: "₹3,000",
     color: "from-blue-500 to-cyan-500",
-    features: [
-      "Intermediate to Advanced",
-      "High-Intensity Training",
-      "Contest-Level Problems",
-      "Weekly Assessments",
-      "Priority Support",
-      "Interview Bootcamp"
+     features: [
+      "Daily live classes By Kumar K sir (SDE @ Amazon)",
+     "FAANGM  + Top PBCs Job Referrals",
+      "851+ Hours Recorded Content",
+      "Personalized 1-1 Mentoring",
+      "Mock Interviews",
+      "Placement Assistance",
+      
+      
     ],
     highlight: "Quick Results"
   }
@@ -77,7 +81,7 @@ export default function ProgramPricing() {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent mb-4">
-            Program Details & Investment
+            Program Details
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Everything you need to know about transforming your coding career
@@ -136,8 +140,18 @@ export default function ProgramPricing() {
                     <span className="text-3xl">💰</span>
                   </div>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-800 mb-2">Investment Plans</h3>
-                <p className="text-gray-600">Choose the perfect program for your learning journey</p>
+                <h3 className="text-2xl font-bold text-gray-800 mb-2">Cohort Plans</h3>
+                
+                
+               <a
+  href="https://docs.google.com/forms/d/1t_Po_G3jdI6D1xfOGyPvSQeyE7fdmlW7MD-WLCr_n2Y/viewform?edit_requested=true"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-gray-600 hover:text-blue-600 underline"
+>
+  Choose the perfect program for your learning journey
+</a>
+
               </div>
 
               <div className="space-y-4">
@@ -193,12 +207,16 @@ export default function ProgramPricing() {
                     </div>
 
                     {/* CTA Button */}
-                    <button
-                      className="w-full bg-white/20 hover:bg-white/30 backdrop-blur-sm py-3 px-6 rounded-xl font-semibold transition-all duration-300"
-                      onClick={() => setSelectedProgram(program.id)}
-                    >
-                      Choose This Program
-                    </button>
+                   <button
+  className="w-full bg-white/20 hover:bg-white/30 backdrop-blur-sm py-3 px-6 rounded-xl font-semibold transition-all duration-300 text-gray-800 hover:text-white"
+  onClick={() => window.open(
+    "https://docs.google.com/forms/d/1t_Po_G3jdI6D1xfOGyPvSQeyE7fdmlW7MD-WLCr_n2Y/viewform?edit_requested=true",
+    "_blank"
+  )}
+>
+  Choose This Program
+</button>
+
                   </div>
                 ))}
               </div>
@@ -208,9 +226,11 @@ export default function ProgramPricing() {
                 <div className="text-center">
                   <div className="text-2xl mb-2">🎁</div>
                   <h4 className="font-bold text-gray-800 mb-1">Bonus Included</h4>
+                  
                   <p className="text-gray-700">
-                    <span className="text-xl font-bold text-purple-600">800-Hour</span> 
-                    <span className="ml-1">Recorded Course Library</span>
+                    <span className="text-xl font-bold text-purple-600">500+Hour</span> 
+                    
+                    <span className="ml-1">Full Stack Dev + System Design Recorded Course</span>
                   </p>
                   <div className="text-sm text-gray-600 mt-2">
                     Access to premium recorded content worth ₹15,000 - Absolutely FREE!
@@ -220,38 +240,7 @@ export default function ProgramPricing() {
             </div>
           </div>
         </div>
-
-        {/* Value Proposition */}
-        <div className="bg-gradient-to-r from-indigo-500 to-purple-600 rounded-3xl p-8 text-white text-center">
-          <div className="max-w-4xl mx-auto">
-            <h3 className="text-3xl font-bold mb-4">Why This Investment Changes Everything</h3>
-            <div className="grid md:grid-cols-3 gap-6 mb-6">
-              <div>
-                <div className="text-2xl mb-2">⚡</div>
-                <div className="font-semibold">10x ROI Guarantee</div>
-                <div className="text-indigo-100 text-sm">Average salary increase of ₹10+ LPA</div>
-              </div>
-              <div>
-                <div className="text-2xl mb-2">🎯</div>
-                <div className="font-semibold">Lifetime Access</div>
-                <div className="text-indigo-100 text-sm">Course updates and community forever</div>
-              </div>
-              <div>
-                <div className="text-2xl mb-2">💪</div>
-                <div className="font-semibold">Success Guarantee</div>
-                <div className="text-indigo-100 text-sm">We don't stop until you succeed</div>
-              </div>
-            </div>
-            <div className="flex gap-4 justify-center">
-              <button className="bg-white text-indigo-600 px-8 py-3 rounded-xl font-semibold hover:bg-gray-100 transition-colors">
-                Start Your Journey
-              </button>
-              <button className="border-2 border-white px-8 py-3 rounded-xl font-semibold hover:bg-white/10 transition-colors">
-                Book Free Consultation
-              </button>
-            </div>
-          </div>
-        </div>
+        
       </div>
     </section>
   );

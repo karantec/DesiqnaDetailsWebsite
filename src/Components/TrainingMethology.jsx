@@ -1,50 +1,23 @@
 import React, { useState } from "react";
 
 const methodologies = [
-  {
-    id: 1,
-    title: "Master Through Challenge",
-    description: "Teach via hard unseen OA problems",
-    fullDescription: "We believe in learning through real challenges. Our curriculum is built around actual Online Assessment problems from top companies, ensuring you're prepared for anything.",
-    icon: "🎯",
-    color: "from-red-500 to-pink-500",
-    bgColor: "bg-gradient-to-br from-red-50 to-pink-50",
-    benefits: ["Real company problems", "Industry-standard difficulty", "Immediate application"]
-  },
-  {
-    id: 2,
-    title: "Contest-Level Excellence",
-    description: "Focus on contest-level DSA",
-    fullDescription: "Elevate your problem-solving skills to competitive programming standards. Contest-level DSA training creates unshakeable confidence in technical interviews.",
-    icon: "🏆",
-    color: "from-yellow-500 to-orange-500",
-    bgColor: "bg-gradient-to-br from-yellow-50 to-orange-50",
-    benefits: ["Advanced algorithms", "Optimized solutions", "Competitive edge"]
-  },
+  
+  
   {
     id: 3,
     title: "Personalized Growth",
-    description: "Daily monitoring + feedback",
+    description: " Personlized 1-1 mentoring and Daily monitoring   + feedback",
     fullDescription: "Your success is our mission. Daily progress tracking and personalized feedback ensure you're always moving forward on your coding journey.",
     icon: "📈",
     color: "from-green-500 to-teal-500",
     bgColor: "bg-gradient-to-br from-green-50 to-teal-50",
     benefits: ["Individual attention", "Progress tracking", "Continuous improvement"]
   },
-  {
-    id: 4,
-    title: "Perfect Fit Learning",
-    description: "Beginner, Intermediate, Pro batches available",
-    fullDescription: "Everyone starts somewhere different. Our tiered approach ensures you're learning at the perfect pace, whether you're taking your first steps or aiming for mastery.",
-    icon: "🎓",
-    color: "from-blue-500 to-indigo-500",
-    bgColor: "bg-gradient-to-br from-blue-50 to-indigo-50",
-    benefits: ["Skill-matched groups", "Optimal learning pace", "Peer collaboration"]
-  },
+  
   {
     id: 5,
     title: "Always-On Support",
-    description: "24×7 Doubt support (inside & outside the course)",
+    description: "24×7 Doubt support ",
     fullDescription: "Learning doesn't stop at 5 PM. Our round-the-clock support system ensures help is always available when inspiration strikes or challenges arise.",
     icon: "🚀",
     color: "from-purple-500 to-violet-500",
@@ -171,25 +144,12 @@ export default function TrainingMethodology() {
             "The methodology here isn't just about learning to code – it's about learning to think like a problem solver. 
             Every challenge made me stronger, and the support system never let me give up."
           </blockquote>
-          <div className="font-semibold">— Rajesh Kumar, Now at Microsoft</div>
+          <div className="font-semibold">— Vinita, Now at Microsoft</div>
           <div className="text-purple-200 text-sm">From complete beginner to ₹50 LPA in 8 months</div>
         </div>
 
         {/* Call to Action */}
-        <div className="text-center mt-12">
-          <div className="bg-white rounded-2xl p-8 shadow-lg border border-white/50 max-w-2xl mx-auto">
-            <h3 className="text-2xl font-bold text-gray-800 mb-4">Ready to Experience Our Proven Method?</h3>
-            <p className="text-gray-600 mb-6">Join thousands who have transformed their careers with our unique approach.</p>
-            <div className="flex gap-4 justify-center">
-              <button className="px-8 py-3 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
-                Start Learning Today
-              </button>
-              <button className="px-8 py-3 border-2 border-gray-300 text-gray-700 rounded-xl hover:bg-gray-50 transition-all duration-300">
-                Book Free Demo
-              </button>
-            </div>
-          </div>
-        </div>
+       
       </div>
     </section>
   );
