@@ -41,7 +41,7 @@ const topCompanies = [
 
 export default function ReferralSupport() {
   const [selectedImage, setSelectedImage] = useState(null);
-  const [imageLoading, setImageLoading] = useState(false);
+  const [ setImageLoading] = useState(false);
 
   const openImageModal = (image) => {
     setSelectedImage(image);
@@ -88,7 +88,7 @@ export default function ReferralSupport() {
               
               {/* Main Image Display */}
               <div className="relative">
-                {referralImages.map((image, index) => (
+                {referralImages.map((image) => (
                   <div key={image.id} className="mb-6 last:mb-0">
                     <div 
                       className="relative group cursor-pointer overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-500"

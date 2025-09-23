@@ -85,7 +85,7 @@ const stories = [
 
 export default function SuccessStories() {
   const [selectedStory, setSelectedStory] = useState(null);
-  const [playingVideo, setPlayingVideo] = useState(null);
+  const [ setPlayingVideo] = useState(null);
 
   const handleVideoPlay = (index) => {
     setPlayingVideo(index);

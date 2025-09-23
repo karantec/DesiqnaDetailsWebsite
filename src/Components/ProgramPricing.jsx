@@ -69,7 +69,7 @@ const programs = [
 ];
 
 export default function ProgramPricing() {
-  const [selectedProgram, setSelectedProgram] = useState(1);
+  const [ setSelectedProgram] = useState(1);
 
   return (
     <section className="py-20 bg-gradient-to-br from-gray-50 via-white to-blue-50">

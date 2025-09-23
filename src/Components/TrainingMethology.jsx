@@ -81,7 +81,7 @@ export default function TrainingMethodology() {
 
         {/* Methodology Cards */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-          {methodologies.map((method, index) => (
+          {methodologies.map((method) => (
             <div
               key={method.id}
               className={`group ${method.bgColor} rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 cursor-pointer border border-white/50 ${
