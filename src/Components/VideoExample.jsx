@@ -7,7 +7,7 @@ export default function VideoExamples() {
       {/* Easy Example Section */}
       <section className="mb-16">
         <h2 className="text-3xl font-bold text-green-600 mb-6">
-          ✅ Easy Example (Exam Level)
+          ✅ Easy Example
         </h2>
         <div className="bg-white rounded-2xl shadow-lg p-6">
           <div className="aspect-w-16 aspect-h-9">

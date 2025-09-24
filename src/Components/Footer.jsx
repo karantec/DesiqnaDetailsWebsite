@@ -1,43 +1,17 @@
 import React from "react";
 
 const Footer = () => {
-  const quickLinks = [
-    { name: "Home", href: "#home" },
-    { name: "Programs", href: "#programs" },
-    { name: "Success Stories", href: "#success" },
-    { name: "Methodology", href: "#methodology" },
-    { name: "Pricing", href: "#pricing" },
-    { name: "Referrals", href: "#referrals" }
-  ];
-
-  const programs = [
-    { name: "8-Month Complete Journey", href: "#8month" },
-    { name: "4-Month Fast Track", href: "#4month" },
-    { name: "Beginner to Advanced", href: "#beginner" },
-    { name: "Interview Preparation", href: "#interview" }
-  ];
-
-  const resources = [
-    { name: "Program Documentation", href: "https://docs.google.com/document/d/1Qa2oA2wN9VdoNHz94lnedHokAl0jC-wVs4EOINVuswc/edit?usp=drivesdk" },
-    { name: "Complete Syllabus", href: "https://training.desiqna.in/Curriculum" },
-    { name: "Practice Problems", href: "#practice" },
-    { name: "Mock Interviews", href: "#mock" },
-    { name: "Career Guidance", href: "#career" }
-  ];
-
   const socialLinks = [
-    { name: "LinkedIn", icon: "💼", href: "#linkedin" },
-    { name: "YouTube", icon: "📺", href: "#youtube" },
-    { name: "Discord", icon: "💬", href: "#discord" },
-    { name: "Telegram", icon: "📱", href: "#telegram" },
-    { name: "Instagram", icon: "📸", href: "#instagram" }
+    { name: "LinkedIn", icon: "💼", href: "https://www.linkedin.com/in/kumark1/" },
+    { name: "YouTube", icon: "📺", href: "https://www.youtube.com/@kumarkdsa" },
+  
   ];
 
   const stats = [
     { number: "1500+", label: "Students Trained" },
     { number: "1158", label: "Success Stories" },
     { number: "95%", label: "Placement Rate" },
-    { number: "50+", label: "Partner Companies" }
+    { number: "50+", label: "Partner Companies" },
   ];
 
   return (
@@ -91,62 +65,55 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Links Grid */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
-            {/* Quick Links */}
-           
-            {/* Programs */}
-            
-            {/* Resources */}
-            
-            {/* Contact & Social */}
-            <div className="bg-white/60 backdrop-blur-sm rounded-2xl p-6 shadow-md border border-white/50">
-              <h3 className="text-lg font-bold mb-6 text-orange-600">Connect With Us</h3>
-              
-              {/* Contact Info */}
-              <div className="mb-6 space-y-3">
-                <div className="text-gray-600 flex items-center gap-2">
-                  <span className="text-lg">📧</span>
-                  <span className="text-sm">support@desiqna.in</span>
-                </div>
-                <div className="text-gray-600 flex items-center gap-2">
-                  <span className="text-lg">📱</span>
-                  <span className="text-sm">+</span>
-                </div>
-                <div className="text-gray-600 flex items-center gap-2">
-                  <span className="text-lg">🌐</span>
-                  <a 
-                    href="https://training.desiqna.in" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="hover:text-blue-600 transition-colors text-sm"
-                  >
-                    training.desiqna.in
-                  </a>
-                </div>
-              </div>
+          {/* Contact & Social */}
+          <div className="bg-white/60 backdrop-blur-sm rounded-2xl p-6 shadow-md border border-white/50">
+            <h3 className="text-lg font-bold mb-6 text-orange-600">Connect With Us</h3>
 
-              {/* Social Links */}
-              <div>
-                <p className="text-sm text-gray-500 mb-3">Follow us on social media:</p>
-                <div className="flex flex-wrap gap-3">
-                  {socialLinks.map((social, index) => (
-                    <a
-                      key={index}
-                      href={social.href}
-                      className="w-10 h-10 bg-gray-100 hover:bg-blue-100 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 border border-gray-200"
-                      title={social.name}
-                    >
-                      <span className="text-lg">{social.icon}</span>
-                    </a>
-                  ))}
-                </div>
+            {/* Contact Info */}
+            <div className="mb-6 space-y-3">
+              <div className="text-gray-600 flex items-center gap-2">
+                <span className="text-lg">📧</span>
+                <span className="text-sm">Any Query Support at +91 9798316854</span>
+              </div>
+              <div className="text-gray-600 flex items-center gap-2">
+                <span className="text-lg">📱</span>
+                <span className="text-sm">+91 9798316854</span>
+              </div>
+              <div className="text-gray-600 flex items-center gap-2">
+                <span className="text-lg">🌐</span>
+                <a
+                  href="https://training.desiqna.in"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-blue-600 transition-colors text-sm"
+                >
+                  training.desiqna.in
+                </a>
+              </div>
+            </div>
+
+            {/* Social Links */}
+            <div>
+              <p className="text-sm text-gray-500 mb-3">Follow us on social media:</p>
+              <div className="flex flex-wrap gap-3">
+                {socialLinks.map((social, index) => (
+                  <a
+                    key={index}
+                    href={social.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-10 h-10 bg-gray-100 hover:bg-blue-100 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 border border-gray-200"
+                    title={social.name}
+                  >
+                    <span className="text-lg">{social.icon}</span>
+                  </a>
+                ))}
               </div>
             </div>
           </div>
 
           {/* Testimonial Section */}
-          <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-3xl p-8 mb-16 border border-white/50 shadow-lg">
+          <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-3xl p-8 mt-16 border border-white/50 shadow-lg">
             <div className="text-center">
               <div className="inline-block p-3 bg-white rounded-full shadow-sm mb-4">
                 <span className="text-3xl">💬</span>
@@ -155,7 +122,6 @@ const Footer = () => {
                 "This program completely changed my life. From a confused college student to a confident software engineer at Google. 
                 The mentorship and support system here is unmatched!"
               </blockquote>
-              <div className="text-blue-600 font-semibold text-lg">— Priya Sharma</div>
               <div className="text-gray-500 text-sm">Software Engineer at Google • ₹60 LPA Package</div>
             </div>
           </div>
