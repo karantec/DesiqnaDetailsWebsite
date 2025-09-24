@@ -106,7 +106,7 @@ export default function SuccessStories() {
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
             Meet our incredible students who turned their coding dreams into
-            reality. Your success story could be next!
+            reality. Your success story will  be next!
           </p>
 
           {/* Stats Banner */}

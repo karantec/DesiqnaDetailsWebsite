@@ -11,10 +11,12 @@ import ReferralSupport from './Components/Referral'
 import Footer from './Components/Footer'
 import VideoExamples from './Components/VideoExample'
 import TrainingMethod from './Components/TrainingMethodology'
+import YouTubeEmbed from './Components/YoutubeEmbedded'
 const App = () => {
   return (
     <div>
       <HeroHeader />
+      <YouTubeEmbed/>
       <WhyDSASection/>
       
       <ProgramHighlights/>

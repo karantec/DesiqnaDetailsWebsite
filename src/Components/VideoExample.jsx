@@ -7,7 +7,7 @@ export default function VideoExamples() {
       {/* Easy Example Section */}
       <section className="mb-16">
         <h2 className="text-3xl font-bold text-green-600 mb-6">
-          ✅ Easy Example
+          ✅ Easy Example (DSA Explanation)
         </h2>
         <div className="bg-white rounded-2xl shadow-lg p-6">
           <div className="aspect-w-16 aspect-h-9">
@@ -27,43 +27,44 @@ export default function VideoExamples() {
 
       {/* Hard Example Section */}
       <section>
-        <h2 className="text-3xl font-bold text-red-600 mb-6">
-          🔥 Hard Examples (Uber / Atlassian Level)
-        </h2>
-        <div className="grid md:grid-cols-2 gap-8">
-          {/* Hard Example 1 */}
-          <div className="bg-white rounded-2xl shadow-lg p-6">
-            <div className="aspect-w-16 aspect-h-9">
-              <iframe
-                className="w-full h-64 rounded-xl"
-                src="https://www.youtube.com/embed/qaroxuOSgHM"
-                title="Hard Example 1"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
-            </div>
-            <p className="mt-4 text-gray-700 font-medium">
-              Hard Example 1 – Graph Problem (Uber/Atlassian style).
-            </p>
-          </div>
+  <h2 className="text-3xl font-bold text-red-600 mb-6">
+    🔥 High Quality Example (Uber OA / Atlassian Interview Level)
+  </h2>
+  <div className="grid grid-cols-2 gap-8">
+    {/* Hard Example 1 */}
+    <div className="bg-white rounded-2xl shadow-lg p-6">
+      <div className="aspect-w-16 aspect-h-9">
+        <iframe
+          className="w-full h-64 rounded-xl"
+          src="https://www.youtube.com/embed/qaroxuOSgHM"
+          title="Hard Example 1"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+      <p className="mt-4 text-gray-700 font-medium">
+        Hard Example 1 – 4-Dimensional Dynamic Programming (Uber OA style) by Kumar K Sir
+      </p>
+    </div>
 
-          {/* Hard Example 2 */}
-          <div className="bg-white rounded-2xl shadow-lg p-6">
-            <div className="aspect-w-16 aspect-h-9">
-              <iframe
-                className="w-full h-64 rounded-xl"
-                src="https://www.youtube.com/embed/7n9Pp4Fpnus"
-                title="Hard Example 2"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
-            </div>
-            <p className="mt-4 text-gray-700 font-medium">
-              Hard Example 2 – 70 LPA Atlassian SDE Interview Graph Problem by Kumar K Sir.
-            </p>
-          </div>
-        </div>
-      </section>
+    {/* Hard Example 2 */}
+    <div className="bg-white rounded-2xl shadow-lg p-6">
+      <div className="aspect-w-16 aspect-h-9">
+        <iframe
+          className="w-full h-64 rounded-xl"
+          src="https://www.youtube.com/embed/7n9Pp4Fpnus"
+          title="Hard Example 2"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+      <p className="mt-4 text-gray-700 font-medium">
+        Hard Example 2 – 70 LPA Atlassian SDE Interview Graph Problem by Kumar K Sir
+      </p>
+    </div>
+  </div>
+</section>
+
     </div>
   );
 }

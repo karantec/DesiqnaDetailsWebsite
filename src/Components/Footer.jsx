@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   const socialLinks = [
-    { name: "LinkedIn", icon: "💼", href: "https://www.linkedin.com/in/kumark1/" },
+    { name: "LinkedIn", icon: "💼", href: "https://www.linkedin.com/company/desiqna/?viewAsMember=true" },
     { name: "YouTube", icon: "📺", href: "https://www.youtube.com/@kumarkdsa" },
   
   ];
@@ -122,7 +122,7 @@ const Footer = () => {
                 "This program completely changed my life. From a confused college student to a confident software engineer at Google. 
                 The mentorship and support system here is unmatched!"
               </blockquote>
-              <div className="text-gray-500 text-sm">Software Engineer at Google • ₹60 LPA Package</div>
+              <div className="text-gray-500 text-sm">Aakash ,Software Engineer at Google • ₹60 LPA Package</div>
             </div>
           </div>
         </div>
@@ -132,7 +132,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             {/* Copyright */}
             <div className="text-gray-500 text-center md:text-left">
-              <p>&copy; 2024 Desiqna Training. All rights reserved.</p>
+              <p>&copy; 2025 Desiqna Training. All rights reserved.</p>
               <p className="text-sm mt-1">Empowering careers, one student at a time. 💪</p>
             </div>
 
@@ -140,8 +140,15 @@ const Footer = () => {
             <div className="flex flex-wrap justify-center gap-6 text-sm">
               <a href="#privacy" className="text-gray-500 hover:text-gray-700 transition-colors">Privacy Policy</a>
               <a href="#terms" className="text-gray-500 hover:text-gray-700 transition-colors">Terms of Service</a>
-              <a href="#refund" className="text-gray-500 hover:text-gray-700 transition-colors">Refund Policy</a>
-              <a href="#support" className="text-gray-500 hover:text-gray-700 transition-colors">Support</a>
+              <a href="https://www.desiqna.in/refund-policy" className="text-gray-500 hover:text-gray-700 transition-colors">Refund Policy</a>
+             <a
+  href="https://wa.me/919798316854"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-green-500 text-white px-4 py-2 rounded-lg font-semibold shadow-md hover:bg-green-600 transition-colors"
+>
+  💬 WhatsApp Support
+</a>
             </div>
           </div>
 

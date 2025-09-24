@@ -6,7 +6,7 @@ const methodologies = [
   {
     id: 3,
     title: "Personalized Growth",
-    description: " Personlized 1-1 mentoring and Daily monitoring   + feedback",
+    description: " Personlized 1-1 mentoring  by Kumar K sir and Daily monitoring   + feedback ",
     fullDescription: "Your success is our mission. Daily progress tracking and personalized feedback ensure you're always moving forward on your coding journey.",
     icon: "📈",
     color: "from-green-500 to-teal-500",
@@ -19,6 +19,16 @@ const methodologies = [
     title: "Always-On Support",
     description: "24×7 Doubt support ",
     fullDescription: "Learning doesn't stop at 5 PM. Our round-the-clock support system ensures help is always available when inspiration strikes or challenges arise.",
+    icon: "🚀",
+    color: "from-purple-500 to-violet-500",
+    bgColor: "bg-gradient-to-br from-purple-50 to-violet-50",
+    benefits: ["Instant help", "Community support", "Mentor availability"]
+  },
+   {
+    id: 5,
+    title: "Batches Details",
+    description: "24×7 Doubt support ",
+    fullDescription: "(Separate Batch for college students/freshers/working professionals/Non-IT graduates) :- We have high number of selections in each of the categories..",
     icon: "🚀",
     color: "from-purple-500 to-violet-500",
     bgColor: "bg-gradient-to-br from-purple-50 to-violet-50",
@@ -131,7 +141,7 @@ export default function TrainingMethodology() {
             </div>
             <div>
               <div className="text-3xl mb-2">🏆</div>
-              <div className="text-2xl font-bold text-orange-600 mb-1">500+</div>
+              <div className="text-2xl font-bold text-orange-600 mb-1">1000+</div>
               <div className="text-gray-600 text-sm">Success Stories</div>
             </div>
           </div>

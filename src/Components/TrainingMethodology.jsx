@@ -15,8 +15,8 @@ export default function TrainingMethod() {
           <p className="text-lg font-semibold text-gray-800 mb-3">
             🏆 Kumar K student achieves{" "}
             <span className="text-blue-600">World Rank 50 / 25,000</span> in
-            LeetCode DSA Contest after{" "}
-            <span className="text-green-600">800hr OA + CP DSA Course</span>.
+            LeetCode Weekly  DSA Contest after{" "} completing our{" "}
+            <span className="text-green-600">851hr hard level DSA + OA + CP  Course</span>.
           </p>
           <a
             href="https://www.linkedin.com/posts/vinit-tekwani_leetcode-leetcodecontest-dsa-activity-7164664196817674240-FTHM/?utm_source=share&utm_medium=member_desktop"
@@ -59,7 +59,7 @@ export default function TrainingMethod() {
             <h3 className="text-xl font-semibold mb-2">👨‍🏫 Custom Batches</h3>
             <p className="text-gray-600">
               Separate training for <b>Beginners</b>, <b>Intermediate</b>, and{" "}
-              <b>Pro</b> levels.
+              <b>Advanced</b> levels.
             </p>
           </div>
 
