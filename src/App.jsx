@@ -9,14 +9,18 @@ import TrainingMethodology from './Components/TrainingMethology'
 import ProgramPricing from './Components/ProgramPricing'
 import ReferralSupport from './Components/Referral'
 import Footer from './Components/Footer'
-
+import VideoExamples from './Components/VideoExample'
+import TrainingMethod from './Components/TrainingMethodology'
 const App = () => {
   return (
     <div>
       <HeroHeader />
       <WhyDSASection/>
+      
       <ProgramHighlights/>
       <MentorInfo/>
+      <VideoExamples/>
+      <TrainingMethod/>
       <SuccessStories/>
       <CohortPlans/>
       <TrainingMethodology/>
