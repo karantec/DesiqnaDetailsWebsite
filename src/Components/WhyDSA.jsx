@@ -53,7 +53,7 @@ export default function WhyDSASection() {
                 ✅ Train for <span className="font-semibold">real OA & interview difficulty</span>
               </li>
               <li>
-                  ✅ Master full-stack <span className="font-semibold"> development with industry level  projects and training tailored for your success.</span>
+                  ✅ Master full-stack (Java + Python+Mern) <span className="font-semibold"> development with industry level  projects and training tailored for your success.</span>
               </li>
               <li>
                   ✅ Crack top-tech interviews  <span className="font-semibold">  with our industry-oriented System Design training..</span>
