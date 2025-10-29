@@ -52,6 +52,9 @@ export default function WhyDSASection() {
               <li>
                 ✅ Train for <span className="font-semibold">real OA & interview difficulty</span>
               </li>
+              <li>
+                Master full-stack <span className="font-semibold"> development with industry level  projects and training tailored for your success.</span>
+              </li>
             </ul>
           </div>
 
