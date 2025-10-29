@@ -55,6 +55,9 @@ export default function WhyDSASection() {
               <li>
                   ✅ Master full-stack <span className="font-semibold"> development with industry level  projects and training tailored for your success.</span>
               </li>
+              <li>
+                  ✅ Crack top-tech interviews  <span className="font-semibold">  with our industry-oriented System Design training..</span>
+              </li>
             </ul>
           </div>
 
