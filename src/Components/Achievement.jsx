@@ -1,6 +1,17 @@
 import React, { useState } from "react";
 
 const stories = [
+
+ {
+    company: "Amazon",
+    package: "₹25 LPA",
+    color: "from-green-500 to-teal-500",
+    video: "hhttps://www.youtube.com/embed/8awJisQrdmQ",
+    studentName: "Aman Advani",
+    role: "Software Engineer ",
+    experience: "Special Podcast video of Kumar K Sir with his student who cracked OffCampus 50 LPA SDE offer from Amazon ",
+    tags: ["Cloud", "Azure", "Enterprise" ,"DSA","System Design"],
+  },
   {
     company: "Nutanix",
     package: "₹2 Cr Package",
@@ -81,7 +92,7 @@ const stories = [
     package: "₹51 LPA",
     color: "from-indigo-500 to-blue-600",
     video: "https://www.youtube.com/embed/6pkkepj5XlQ",
-    studentName: "Dev madan",
+    studentName: "Dev Madan",
     role: "Software Engineer",
     experience: "Kumar K Mentoring Student cracked Off-Campus Full-Time SDE Offer from Amazon after 8 months of advanced DSA(OA + CP+System Design) training.",
     tags: ["Social Platform", "Scalability", "Full Stack"],
