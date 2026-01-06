@@ -24,7 +24,7 @@ export default function WhyDSASection() {
 
           <div className="space-y-4">
             <p className="text-gray-800 text-sm sm:text-base md:text-lg">
-              <span className="font-semibold">💡 2025 Hiring Trend:</span> Companies are asking{" "}
+              <span className="font-semibold">💡 2026 Hiring Trend:</span> Companies are asking{" "}
               <span className="font-medium">hard, unseen, story-based DSA problems</span> in Online Assessments. 
               Interviewers follow up with{" "}
               <span className="font-medium">medium-to-hard new problems</span> to test real depth of understanding.
